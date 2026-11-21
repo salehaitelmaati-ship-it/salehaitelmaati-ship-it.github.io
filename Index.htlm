@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morocco Dream - Tours in Morocco</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#fff8ee;color:#333}
+header{background:#ff7a00;color:white;text-align:center;padding:40px 20px}
+header h1{font-size:36px;margin:0}
+header p{font-size:18px}
+.container{max-width:1000px;margin:auto;padding:20px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
+.card{background:white;border-radius:15px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,0.1);text-align:center;padding-bottom:20px}
+.card img{width:100%;height:200px;object-fit:cover}
+.card h2{margin:15px 0 5px}
+.price{color:#ff7a00;font-size:22px;font-weight:bold}
+.btn{display:inline-block;background:#25D366;color:white;padding:12px 20px;border-radius:25px;text-decoration:none;font-weight:bold;margin-top:10px}
+footer{text-align:center;padding:20px;color:#888}
+@media(max-width:700px){.container{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<h1>🌴 Morocco Dream</h1>
+<p>Discover the Magic of Morocco - Desert, Atlas & Marrakech</p>
+<a class="btn" href="https://wa.me/212674296071?text=Hello%20Morocco%20Dream!%20I%20want%20to%20book%20a%20tour">Chat on WhatsApp</a>
+</header>
+<div class="container">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800">
+<h2>🏜️ Sahara Desert</h2>
+<p>2 Days - Camel Ride & Night in Desert Camp</p>
+<div class="price">899 MAD</div>
+<a class="btn" href="https://wa.me/212674296071?text=Hello!%20I%20want%20to%20book%20Sahara%20Desert%20Tour%20-%20899%20MAD">Book on WhatsApp</a>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=800">
+<h2>⛰️ Atlas Mountains</h2>
+<p>1 Day - Berber Villages & Waterfalls</p>
+<div class="price">450 MAD</div>
+<a class="btn" href="https://wa.me/212674296071?text=Hello!%20I%20want%20to%20book%20Atlas%20Mountains%20Tour%20-%20450%20MAD">Book on WhatsApp</a>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800">
+<h2>🕌 Marrakech City Tour</h2>
+<p>Half Day - Medina, Souks & Jemaa El Fna</p>
+<div class="price">350 MAD</div>
+<a class="btn" href="https://wa.me/212674296071?text=Hello!%20I%20want%20to%20book%20Marrakech%20City%20Tour%20-%20350%20MAD">Book on WhatsApp</a>
+</div>
+</div>
+<footer>© 2026 Morocco Dream - WhatsApp: +212 674-296071</footer>
+</body>
+</html>
